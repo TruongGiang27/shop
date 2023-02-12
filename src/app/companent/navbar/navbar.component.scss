@@ -1,0 +1,78 @@
+.background{
+  background-color: rgb(255, 255, 255);
+  width: 10vw;
+  height: 10vh;
+  margin :0;
+}
+.navbar{
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(29, 28, 28);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+.left #icon{
+  transform: scale(2);
+  margin-left: 25px;
+  margin-right: 2px;
+  padding: 10px;
+  transition: 0.5s;
+  color: snow;
+}
+.left #icon:hover{
+  color:blue;
+  transition: 0.5s;
+}
+
+
+#title{
+  font-size: 60px;
+  font-weight: 500;
+  color: snow;
+}
+.mid{
+  margin-top: 0.5%;
+margin-right: 10%;
+}
+
+#sign_in{
+    margin-top: 26px;
+
+    transition: 0.5s;
+}
+
+#sign_in:hover{
+  background-color: aliceblue;
+  border-radius: 3px;
+  padding:0 10px 0 10px;
+  color:rgb(0, 0, 0)
+}
+.right{
+  display: flex;
+  align-items: center;
+  color: snow;
+}
+.right #icon{
+  transform: scale(2);
+  margin-left: 25px;
+  margin-right: 2px;
+  padding: 20px;
+  color: snow;
+}
+#search{
+
+  font-size: 23px;
+  padding: 5px 5px 5px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
