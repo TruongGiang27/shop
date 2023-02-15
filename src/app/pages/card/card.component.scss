@@ -22,11 +22,10 @@
     transition: 0.5s;
 }
 .card:hover{
-    width: 355px;
-    margin: 2px;
-    padding: -1rem;  
+    width: 350px;
     background-color: rgb(244, 240, 240);
     transition: 0.5s;
+    transform: scale(1.05);
 }
 #abc{
     text-align: center;
@@ -55,7 +54,21 @@
     margin-top: 20px;
     padding: 25px 25px;
     text-align: center;
-    font-size: 25px,
-    
+    font-size: 25px,    
+}
+#btn{
+    font-size: 25px;
+    background-color:snow;
+    padding: 7px 25px 7px 7px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 1px rgb(197, 197, 197);
+    border: none;
+    border-radius: 5px;
+}
+#btn:hover{
+  color: azure;
+  background-color: rgb(190, 190, 255);
+  cursor: pointer;
 }
 

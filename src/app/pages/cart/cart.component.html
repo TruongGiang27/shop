@@ -1,0 +1,24 @@
+<div class="navbar">
+    <div class="name">
+        <div class="container" *ngFor="let item of tshirtSrvc.cart">
+        <div class="card">
+            <h2 id="name">{{item.name}}</h2>
+            <img class="card-image" [src]="item.img">
+            <!-- <p id="text">{{item.information}}</p> -->
+            <h1 id="mn">giá: {{item.price}}₫</h1>
+            <div class="column">
+                <h1 id="quantity">số lượng: {{item.quantity}}</h1>  
+                <p id="total">Total :{{item.price * item.quantity}}₫</p>
+            </div>
+        </div> 
+    </div> 
+   
+</div>
+
+</div>
+<div *ngIf="this.tshirtSrvc.cart.length != 0">
+    <button [routerLink]="['/home']" id="btn">Xác nhận</button>
+</div>
+
+
+    

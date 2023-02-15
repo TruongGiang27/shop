@@ -8,12 +8,20 @@
     </div>   
 
     <div class="mid">
-        <h1 id="title" style="color:snow">Web Shop</h1>   
+        <a [routerLink]="['/']">
+             <mat-icon  id="home" style="color: azure;">home></mat-icon>
+        </a>
+           
+        <h1  id="title" style="color:snow">Web Shop</h1>   
     </div>
 
     <div class="right">
         <mat-icon id="icon">account_box</mat-icon><h2 id="sign_in">Sign In</h2>   
-        <mat-icon id="icon" >add_shopping_cart</mat-icon>     
+        <a [routerLink]="['/cart']">
+            <mat-icon id="icon" >add_shopping_cart</mat-icon> 
+         </a>
+         <h2 id="number">{{this.tshirtSrvc.cart.length}}</h2>
+           
 </div>
     </div>
     

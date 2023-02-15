@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px;
+  padding: 15px;
 
 }
 .left{
@@ -33,27 +33,36 @@
   transition: 0.5s;
 }
 
-
+#number{
+  margin-right: 20px;
+  margin-top: 5px ;
+  font-size: 30px;
+}
 #title{
   font-size: 60px;
   font-weight: 500;
   color: snow;
 }
 .mid{
+  display: flex;
   margin-top: 0.5%;
 margin-right: 10%;
+}
+#home{
+  margin-right: 20px;
+  margin-top: 3.5px;
+  transform: scale(2.5);
 }
 
 #sign_in{
     margin-top: 26px;
-
     transition: 0.5s;
+    padding: 0 10px 0 10px
 }
 
 #sign_in:hover{
   background-color: aliceblue;
   border-radius: 3px;
-  padding:0 10px 0 10px;
   color:rgb(0, 0, 0)
 }
 .right{

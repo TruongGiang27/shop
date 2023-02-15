@@ -1,0 +1,14 @@
+<div class="navbar">
+    <div class="abc">
+        <div class="container" *ngFor="let item of tshirtSrvc.shop">
+        <div class="card">
+            <h2 id="abc">{{item.name}}</h2>
+            <img class="card-image" [src]="item.img">
+            <p id="text">{{item.information}}</p>
+            <h1 id="mn">{{item.price}}</h1>
+            <button id="btn" (click)="tshirtSrvc.addToCart(item)"><mat-icon>shopping_cart</mat-icon>add</button>
+            <h2 id="still"> {{item.sell}}</h2>
+        </div> 
+    </div> 
+</div>
+<!-- routerLink]="['/cart']" -->
